@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cerisier/docker-prerender.git"
+    "url": "https://github.com/imcbeth/docker-prerender.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cerisier/docker-prerender/issues"
+    "url": "https://github.com/imcbeth/docker-prerender/issues"
   },
-  "homepage": "https://github.com/cerisier/docker-prerender"
+  "homepage": "https://github.com/imcbeth/docker-prerender"
 }
