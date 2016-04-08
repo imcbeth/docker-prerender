@@ -9,6 +9,7 @@ RUN apt-get update -y && apt-get install -y \
     libfreetype6 libfontconfig
 
 RUN mkdir /data
+RUN mkdir /data/lib
 
 ADD ./package.json /data/package.json
 RUN cd /data && npm install
