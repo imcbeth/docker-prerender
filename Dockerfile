@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Corentin Kerisit "c@42.am"
+MAINTAINER Ian Mcbeth "ian.mcbeth@gettyimages.com"
 
 RUN echo deb http://ftp.debian.org/debian/ jessie main contrib non-free > /etc/apt/source.list
 
