@@ -14,6 +14,7 @@ RUN mkdir /data/lib
 ADD ./package.json /data/package.json
 RUN cd /data && npm install
 
+ADD lib/. data/lib/
 ADD . /data/
 
 CMD node /data/server.js
