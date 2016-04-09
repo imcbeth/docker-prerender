@@ -17,4 +17,4 @@ RUN cd /data && npm install
 ADD lib/. data/lib/
 ADD . /data/
 
-CMD node /data/server.js
+CMD node /data/server.js >> /var/log/node.log 2>&1
